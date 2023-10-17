@@ -13,3 +13,4 @@ La app debe realizar recordatorios de las compras.
 REQUERIMIENTOS NO FUNCIONALES:
 Personalización de la aplicación para el usuario.
 Que la aplicación sea atractiva visualmente.
+La app debe tener un flujo intuitivo entre las pantallas.
