@@ -10,7 +10,14 @@ La app debe integrar registro escrito y por voz.
 La app debe realizar recordatorios de las compras.
 
 
+
 REQUERIMIENTOS NO FUNCIONALES:
 Personalización de la aplicación para el usuario.
 Que la aplicación sea atractiva visualmente.
 La app debe tener un flujo intuitivo entre las pantallas.
+
+
+
+DESCRIPCIÓN DE LA APLICACIÓN:
+La aplicación "Mi lista de compra" nos ayuda a tener un manejo fácil y cómodo de los productos que tenemos en nuestra casa, así como también planificar listas de compra en donde añadiremos los productos que deseamos comprar en nuestra próxima ida al súper. Además esta App nos permite mantener un registro de los lugares de compra que frecuentamos. 
+
