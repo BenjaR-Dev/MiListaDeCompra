@@ -24,10 +24,9 @@ class ListaDeCompraActivity : AppCompatActivity() {
         listViewListaCompra = findViewById(R.id.ListaCompra)
 
         productos = mutableListOf(
-            Producto("Pan", 300, "El pan se come po",),
-            Producto("Coca-Cola", 1300, "Cocacola espuma",),
-            Producto("Hamburguesa", 400, "la hizo mi pololo",),
-            Producto("Pan", 300, "El pan se come po",)
+            Producto("Pan", 300, "El pan se come",),
+            Producto("Coca-Cola", 1800, "2 litros de Coca-cola",),
+            Producto("Hamburguesa", 2300, "Hamburguesa con queso",)
         )
 
         adapter = AdapterListaCompra(this, R.layout.test, productos)
