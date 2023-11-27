@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Shopping List</string>
+
+    //Pantalla Home
+    <string name="Boton1Home">My products</string>
+    <string name="Boton2Home">Shopping list</string>
+    <string name="Boton3Home">Places of interest</string>
+</resources>
