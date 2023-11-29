@@ -2,10 +2,12 @@ package cl.brodriguez.milistadecompra
 
 import android.content.Intent
 import android.media.MediaPlayer
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +18,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //Colores de arriba y abajo
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.statusBarColor = ContextCompat.getColor(this, R.color.Green2)
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.navigationBarColor = ContextCompat.getColor(this, R.color.Green2)
+        }
 
         mediaPlayer = MediaPlayer.create(this, R.raw.inicio)
         mediaPlayer.start()

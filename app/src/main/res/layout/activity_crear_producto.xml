@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearProductoActivity">
+
+    <!-- activity_crear_producto.xml -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/DawnPink">
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/espacioNombre"
+            android:inputType="text"
+            android:textColor="@color/Green1" />
+
+        <EditText
+            android:id="@+id/editTextCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNombre"
+            android:hint="@string/espacioCantidad"
+            android:inputType="number"
+            android:textColor="@color/Green1" />
+
+        <EditText
+            android:id="@+id/editTextPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextCantidad"
+            android:hint="@string/espacioPrecio"
+            android:inputType="numberDecimal"
+            android:textColor="@color/Green1" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPrecio"
+            android:prompt="@string/selecciona_tipo_producto" />
+
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerTipoProducto"
+            android:hint="@string/espacioDescripcion"
+            android:inputType="textMultiLine"
+            android:textColor="@color/Green1" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextDescripcion"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/AlmondFrost"
+            android:text="@string/botonCrearProducto"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

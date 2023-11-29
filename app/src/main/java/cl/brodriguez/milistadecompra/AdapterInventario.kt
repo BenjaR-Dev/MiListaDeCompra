@@ -1,14 +1,14 @@
 package cl.brodriguez.milistadecompra
 
+import Producto
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
-import cl.brodriguez.milistadecompra.Producto
 
-class AdapterListaCompra (
+class AdapterInventario (
     context: Context,
     resource: Int,
     productos: List<Producto>
@@ -18,18 +18,22 @@ class AdapterListaCompra (
         val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         val listItemView = convertView ?: inflater.inflate(R.layout.test, null)
 
-        // Get the patient data at the current position
         val producto = getItem(position)
 
-        // Bind patient data to TextViews in the custom layout
         val nombreTextView = listItemView.findViewById<TextView>(R.id.nombre_producto)
         val precioTextView = listItemView.findViewById<TextView>(R.id.precio_producto)
         val descripcionTextView = listItemView.findViewById<TextView>(R.id.descripcion_producto)
 
-        // Set the patient data in the TextViews
-        nombreTextView.text = producto?.nombre
-        precioTextView.text = producto?.precio.toString()
-        descripcionTextView.text = producto?.descripcion
+        //no es nulo
+        if (producto != null) {
+            // Establecer los valores
+            nombreTextView.text = producto.nombre
+            descripcionTextView.text = producto.descripcion
+
+            //el precio no sea negativo
+            val precio = if (producto.precio >= 0) producto.precio.toString() else "No disponible"
+            precioTextView.text = "Precio: $precio"
+        }
 
         return listItemView
     }

@@ -1,8 +1,50 @@
 <resources>
+    //TITULO
     <string name="app_name">Mi Lista de Compra</string>
 
-    //Pantalla Home
-    <string name="Boton1Home">Mis productos</string>
-    <string name="Boton2Home">Lista de compra</string>
-    <string name="Boton3Home">Lugares de interés</string>
+    //Pantalla HOME
+    <string name="botonHome">Mi inventario</string>
+
+    //Pantalla INVENTARIO
+    <string name="tituloInventario">Mi inventario</string>
+    <string name="crearNuevo">Añadir</string>
+    <string name="buscar">Buscar</string>
+    <string name="ordenar">Ordenar</string>
+
+    //Pantalla CREAR
+    <string name="espacioNombre">Nombre del producto</string>
+    <string name="espacioCantidad">Cantidad</string>
+    <string name="espacioPrecio">Precio</string>
+    <string name="espacioDescripcion">Descripción</string>
+    <string name="botonCrearProducto">Crear producto</string>
+
+    //Pantalla DETALLES
+    <string name="tituloDetalles">Detalles</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="id">ID:</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="precio">Precio:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="descripcion">Descripción:</string>
+
+    //Pantalla EDICIÓN
+    <string name="tituloEdicion">Edición del producto</string>
+    <string name="botonGuardarEdicion">Guardar edición</string>
+
+
+
+
+
+
+    <string name="selecciona_tipo_producto">Selecciona el tipo de producto</string>
+
+    <string name="title_activity_inventario">InventarioActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
 </resources>

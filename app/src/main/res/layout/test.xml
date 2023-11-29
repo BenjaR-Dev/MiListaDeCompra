@@ -18,19 +18,25 @@
             android:id="@+id/nombre_producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre:" />
+            android:text="Nombre:"
+            android:textColor="@color/Green1"
+            android:paddingLeft="8dp"/>
 
         <TextView
             android:id="@+id/precio_producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Precio:" />
+            android:text="Precio:"
+            android:textColor="@color/Green1"
+            android:paddingLeft="8dp"/>
 
         <TextView
             android:id="@+id/descripcion_producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Descripción:" />
+            android:text="Descripción:"
+            android:textColor="@color/Green1"
+            android:paddingLeft="8dp"/>
 
     </LinearLayout>
 
