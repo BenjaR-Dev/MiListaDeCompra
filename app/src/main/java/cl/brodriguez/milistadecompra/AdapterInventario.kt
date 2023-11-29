@@ -32,7 +32,7 @@ class AdapterInventario (
 
             //el precio no sea negativo
             val precio = if (producto.precio >= 0) producto.precio.toString() else "No disponible"
-            precioTextView.text = "Precio: $precio"
+            precioTextView.text = context.getString(R.string.precio) + " $precio"
         }
 
         return listItemView

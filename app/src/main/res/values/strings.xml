@@ -10,6 +10,7 @@
     <string name="crearNuevo">Añadir</string>
     <string name="buscar">Buscar</string>
     <string name="ordenar">Ordenar</string>
+    <string name="nombre">Nombre:</string>
 
     //Pantalla CREAR
     <string name="espacioNombre">Nombre del producto</string>

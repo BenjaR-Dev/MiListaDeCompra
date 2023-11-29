@@ -6,8 +6,7 @@ Por otro lado se implementó la internacionalización de la aplicación por medi
 
 LINK APK: https://drive.google.com/drive/folders/1lSZCNL_9lYGquXWBgHBTNp7llM7n3vRA?usp=sharing
 
-
-LINK PRESENTACIÓN:
+LINK VIDEO PRESENTACIÓN: https://youtu.be/sK2P5xStp_A
 
 
 
